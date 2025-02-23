@@ -45,8 +45,8 @@ const TeamSection = (props) => {
                                     </defs>
                                 </svg>
                             </div>
-                            <span>TEAM MEMBERS</span>
-                            <h2>Campaign Staff</h2>
+                            <span>Bancada</span>
+                            <h2>Nuestra Bancada</h2>
                         </div>
                     </div>
                 </div>

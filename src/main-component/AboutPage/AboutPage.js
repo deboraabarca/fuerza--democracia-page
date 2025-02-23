@@ -13,7 +13,7 @@ const AboutPage = () => {
     return (
         <Fragment>
             <Navbar2 />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
+            <PageTitle pageTitle={'Sobre Nosotros '} pagesub={'Nosotros'} />
             <Features/>
             <About/>
             <CampaignSection />

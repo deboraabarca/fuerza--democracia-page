@@ -13,7 +13,7 @@ const HomePage =() => {
     return(
         <Fragment>
             <Navbar hclass={'wpo-header-style-1'}/>
-            <Hero/>
+            <Hero/> 
             <Features/>
             <MissionVission/>
             <Ideario/>

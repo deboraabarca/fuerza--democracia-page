@@ -373,7 +373,7 @@ img {
   z-index: -1;
 }
 .wpo-section-title .section-titl-shape-1 svg g {
-  fill: #274DCF;
+  fill: #170059;
 }
 .wpo-section-title .section-titl-shape-2 {
   position: absolute;
@@ -466,10 +466,10 @@ img {
 
 .theme-btn-s2 {
   background: #fff;
-  color: #274DCF;
+  color: #170059;
   display: inline-block;
   padding: 12px 22px;
-  border: 1px solid #274DCF;
+  border: 1px solid #170059;
   border-radius: 55px;
   text-transform: capitalize;
   z-index: 1;
@@ -3985,7 +3985,7 @@ wpo-static-hero
   transform: translate(-50%, -50%);
 }
 .wpo-site-footer .shape-1 svg rect {
-  fill: linear-gradient(270deg, #274DCF 0%, rgba(255, 255, 255, 0) 100%);
+  fill: linear-gradient(270deg, #170059 0%, rgba(255, 255, 255, 0) 100%);
 }
 .wpo-site-footer .shape-2 {
   position: absolute;
@@ -4823,7 +4823,7 @@ wpo-static-hero
   content: "";
   width: 100px;
   height: 5px;
-  background: linear-gradient(90deg, rgb(222, 32, 69) 50%, rgb(222, 32, 69) 50%, rgb(39, 77, 207) 50%);
+  background: linear-gradient(90deg, #F40E22 50%, #F40E22 50%, #170059 50%);
 }
 @media (max-width: 991px) {
   .wpo-event-section .event-wrap .wpo-section-title::before {
@@ -4966,7 +4966,7 @@ wpo-static-hero
 }
 @media (max-width: 1599px) {
   .wpo-event-section .event-wrap .event-item .event-content h2 a {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
   }
 }
@@ -5020,7 +5020,7 @@ wpo-static-hero
   z-index: -1;
 }
 .wpo-event-section .shape-2 svg rect {
-  fill: linear-gradient(90deg, #274DCF 0%, rgba(217, 217, 217, 0) 100%);
+  fill: linear-gradient(90deg, #170059 0%, rgba(217, 217, 217, 0) 100%);
 }
 .wpo-event-section .shape-3 {
   position: absolute;
@@ -5365,7 +5365,7 @@ wpo-static-hero
   }
 }
 .wpo-testimonial-section .testimonial-wrap .shape-1 svg rect {
-  fill: linear-gradient(270deg, #274DCF 0%, rgba(255, 255, 255, 0) 100%);
+  fill: linear-gradient(270deg, #170059 0%, rgba(255, 255, 255, 0) 100%);
 }
 .wpo-testimonial-section .testimonial-wrap .shape-2 {
   position: absolute;
@@ -5621,7 +5621,7 @@ wpo-static-hero
 }
 .wpo-election-donation-section-s2 .wpo-service-slider-s2 .owl-nav [class*=owl-] .fi::before {
   font-size: 12px;
-  color: #274DCF;
+  color: #170059;
 }
 .wpo-election-donation-section-s2 .wpo-service-slider-s2 .owl-nav .owl-prev,
 .wpo-election-donation-section-s2 .wpo-service-slider-s2 .owl-nav .owl-next {

@@ -43,7 +43,7 @@ const Ideario = (props) => {
                             <defs>
                                 <linearGradient id="paint0_linear_1_82" x1="78.5" y1="157" x2="78.5" y2="6.98189e-07"
                                     gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stopColor="#274DCF" stopOpacity="0.25" />
+                                    <stop offset="0" stopColor="#170059" stopOpacity="0.25" />
                                     <stop offset="1" stopColor="white" stopOpacity="0" />
                                 </linearGradient>
                             </defs>

@@ -18,7 +18,7 @@ const Footer = (props) => {
                     <defs>
                         <linearGradient id="paint0_linear_1_223" x1="795" y1="5.99883" x2="9.55538e-10" y2="5.99883"
                             gradientUnits="userSpaceOnUse">
-                            <stop offset="0" stopColor="#274DCF" />
+                            <stop offset="0" stopColor="#170059" />
                             <stop offset="1" stopColor="white" stopOpacity="0" />
                         </linearGradient>
                     </defs>

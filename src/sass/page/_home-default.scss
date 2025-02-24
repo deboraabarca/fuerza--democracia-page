@@ -612,7 +612,7 @@
                 content: '';
                 width: 100px;
                 height: 5px;
-                background: linear-gradient(90deg, rgba(222, 32, 69, 1) 50%, rgba(222, 32, 69, 1) 50%, rgba(39, 77, 207, 1) 50%);
+                background: linear-gradient(90deg, #F40E22 50%, #F40E22 50%, #170059 50%);
 
                 @media (max-width:991px) {
                     left: 42%;
@@ -682,7 +682,7 @@
             }
 
             .event-content {
-                margin-top: 35px;
+                margin-top: 42px;
 
                 span {
                     color: $text-light-color-s2;
@@ -710,6 +710,7 @@
                         font-size: 15px;
                         color: $dark-gray;
                         margin-right: 10px;
+                        padding-bottom: 18px;
 
                         @media (max-width:1199px) {
                             font-size: 10px;
@@ -724,7 +725,7 @@
 
                 h2 {
                     margin-top: 10px;
-                    margin-bottom: 14px;
+                    margin-bottom: 30px;
 
                     @media (max-width:1199px) {
                         line-height: 20px;
@@ -736,16 +737,16 @@
 
                     a {
                         font-family: $heading-font;
-                        font-size: 25px;
+                        font-size: 23px;
                         font-weight: 600;
-                        line-height: 32px;
+                        line-height: 30px;
                         color: $heading-color;
                         text-transform: capitalize;
                         transition: all .4s ease-in-out;
 
                         @media (max-width:1599px) {
-                            font-size: 22px;
-                            line-height: 28px;
+                            font-size: 18px;
+                            line-height: 10px;
                         }
 
                         @media (max-width:1399px) {
@@ -832,7 +833,7 @@
 
         svg {
             rect {
-                fill: linear-gradient(90deg, #274DCF 0%, rgba(217, 217, 217, 0) 100%);
+                fill: linear-gradient(90deg, #170059 0%, rgba(217, 217, 217, 0) 100%);
             }
         }
     }
@@ -1132,7 +1133,7 @@
 
             svg {
                 rect {
-                    fill: linear-gradient(270deg, #274DCF 0%, rgba(255, 255, 255, 0) 100%);
+                    fill: linear-gradient(270deg, #170059 0%, rgba(255, 255, 255, 0) 100%);
                 }
             }
         }

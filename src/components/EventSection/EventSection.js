@@ -15,8 +15,8 @@ const EventSection = (props) => {
             <div className="row">
                 <div className="col-lg-3 col-md-12 col-12">
                     <div className="wpo-section-title">
-                        <span>Our Event’s</span>
-                        <h2>You can attend our upcoming events</h2>
+                        <span>Eventos</span>
+                        <h2>Participa en nuestros eventos</h2>
                     </div>
                 </div>
                 {
@@ -28,7 +28,7 @@ const EventSection = (props) => {
                                 </div>
                                 <div className="event-content">
                                     <span><i className="fa fa-map-marker" aria-hidden="true"></i>{event.location}</span>
-                                    <h2><Link onClick={ClickHandler} to={`/event-single/${event.slug}`}>{event.title}</Link></h2>
+                                    <h2><Link onClick={ClickHandler} to={`/event-single/${event.slug}`} className="break-line">{event.title}</Link></h2>
                                     <div className="event-date">
                                         <span className="date"><i className="fa fa-calendar"
                                                 aria-hidden="true"></i>{event.date}</span>
@@ -60,7 +60,7 @@ const EventSection = (props) => {
             <defs>
                 <linearGradient id="paint0_linear_1_167" x1="2.66246e-06" y1="35.3845" x2="960" y2="35.3845"
                     gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stopColor="#274DCF" />
+                    <stop offset="0" stopColor="#170059" />
                     <stop offset="1" stopColor="#D9D9D9" stopOpacity="0" />
                 </linearGradient>
             </defs>

@@ -46,8 +46,8 @@ const BlogSection = () => {
                                     </defs>
                                 </svg>
                             </div>
-                            <span>Blog Post</span>
-                            <h2>Awesome Blog Post & Article.</h2>
+                            <span>Blog</span>
+                            <h2>Explora artículos y blogs</h2>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const BlogSection = () => {
                                     <div className="blog-content">
                                         <h2>{blog.title}</h2>
                                         <p>{blog.description}</p>
-                                        <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`} className="theme-btn-s2">READ MORE</Link>
+                                        <Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`} className="theme-btn-s2">LEER MÁS</Link>
                                     </div>
                                 </div>
                             </div>

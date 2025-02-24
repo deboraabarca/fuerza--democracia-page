@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Navbar2/Navbar2'
 import Hero from '../../components/hero/hero';
 import Features from '../../components/Features/Features';
 import About from '../../components/about/about';
@@ -13,7 +13,7 @@ import Footer from '../../components/footer/Footer';
 const HomePage =() => {
     return(
         <Fragment>
-            <Navbar hclass={'wpo-header-style-4'}/>
+            <Navbar hclass={'wpo-header-style-1'}/>
             <Hero/>
             <Features/>
             <About/>
@@ -27,3 +27,6 @@ const HomePage =() => {
     )
 };
 export default HomePage;
+
+
+

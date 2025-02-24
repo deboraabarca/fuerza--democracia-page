@@ -16,36 +16,6 @@ const EventTab = ({ EventsDetails }) => {
 
   return (
     <div>
-      <div className="wpo-event-details-tab">
-        <Nav tabs>
-          <NavItem>
-            <NavLink
-              className={classnames({ active: activeTab === '1' })}
-              onClick={() => { toggle('1'); }}
-            >
-              Description
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              className={classnames({ active: activeTab === '2' })}
-              onClick={() => { toggle('2'); }}
-            >
-
-              Donations
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              className={classnames({ active: activeTab === '3' })}
-              onClick={() => { toggle('3'); }}
-            >
-
-              Comments
-            </NavLink>
-          </NavItem>
-        </Nav>
-      </div>
       <div className="wpo-event-details-text">
         <TabContent activeTab={activeTab}>
           <TabPane tabId="1">

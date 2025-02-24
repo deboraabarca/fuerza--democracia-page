@@ -34,7 +34,7 @@ const Header2 = (props) => {
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">NOSOTROS</Link></li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/event-single/Support-for-Womans">EVENTOS</Link>
+                                            <Link onClick={ClickHandler} to="/event-single/Gran-Marcha-por-la-Democracia">EVENTOS</Link>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/blog-left-sidebar">Blog</Link>

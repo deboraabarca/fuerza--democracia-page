@@ -44,59 +44,53 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <img src={Logo} alt="blog" />
                                 </div>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, make
-                                    specimen book.</p>
+                                <p>Fuerza y Democracia fue inscrito el 4 de marzo de 2024 y presidido por por la
+                                    Dra. Laura Luque Arias.</p>
                                 <ul>
                                     <li>
-                                        <Link onClick={ClickHandler} to="/">
+                                        <a href="https://www.facebook.com/profile.php?id=61573104098563" target="_blank" rel="noopener noreferrer">
                                             <i className="ti-facebook"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} to="/">
+                                        <a href="https://x.com/y_democrac17312" target="_blank" rel="noopener noreferrer">
                                             <i className="ti-twitter-alt"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} to="/">
+                                        <a href="https://www.instagram.com/fuerzademocracia/" target="_blank" rel="noopener noreferrer">
                                             <i className="ti-instagram"></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={ClickHandler} to="/">
-                                            <i className="ti-google"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
+
                             </div>
                         </div>
                         <div className="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
-                                    <h3>quick links:</h3>
+                                    <h3>ENLACES</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/home">Home</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog">Blog Post</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/donate">Donate</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/team">Members</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/events">Events</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/home">Inicio</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/about">Nosotros</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/event-single/Gran-Marcha-por-la-Democracia">Eventos</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog-left-sidebar">Blog</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Contacto</Link></li>
                                 </ul>
                             </div>
                         </div >
                         <div className="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget wpo-service-link-widget">
                                 <div className="widget-title">
-                                    <h3>Contact Us</h3>
+                                    <h3>CONTÁCTANOS</h3>
                                 </div>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="fi ti-location-pin"></i>68D, Belsion Town 2365
-                                            <br /> Fna city, LH 3656, USA</li>
-                                        <li><i className="fi flaticon-phone-call-1"></i>+ 8 (123) 123 456 789
+                                        <li><i className="fi flaticon-phone-call-1"></i>+51 900 103 512
                                             <br />
-                                            + 8 (123) 123 456 789</li>
-                                        <li><i className="fa fa-envelope-o" aria-hidden="true"></i>electian@gmail.com</li>
+                                            +1 800 123 654 987</li>
+                                        <li><i className="fa fa-envelope-o" aria-hidden="true"></i>fuerza&democracia<br />@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -104,12 +98,12 @@ const Footer = (props) => {
                         <div className="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget newsletter-widget">
                                 <div className="widget-title">
-                                    <h3>newsletter:</h3>
+                                    <h3>NOTICIAS</h3>
                                 </div>
-                                <p>Lorem Ipsum has been the industry standard text ever since the printer took.</p>
+                                <p>Recibe las últimas noticias y eventos de Fuerza y Democracia.<br /> ¡Sé el primero en enterarte!</p>
                                 <form onSubmit={SubmitHandler}>
                                     <div className="input-1">
-                                        <input type="email" className="form-control" placeholder="Enter your email"
+                                        <input type="email" className="form-control" placeholder="Ingresa tu email"
                                             required="" />
                                     </div>
                                     <div className="submit clearfix">
@@ -126,7 +120,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2023 Electian by <Link onClick={ClickHandler} to="/home">wpOceans</Link>.All Rights Reserved.</p>
+                            <p className="copyright"> Copyright &copy; 2025  Fuerza y Democracia  &nbsp;&nbsp;Todos los derechos reservados</p>
                         </div>
                     </div>
                 </div>

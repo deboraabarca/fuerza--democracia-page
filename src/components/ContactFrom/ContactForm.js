@@ -50,7 +50,7 @@ const ContactForm = () => {
                             name="name"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Name" />
+                            placeholder="Tu Nombre" />
                         {validator.message('name', forms.name, 'required|alpha_space')}
                     </div>
                 </div>
@@ -62,11 +62,11 @@ const ContactForm = () => {
                             name="email"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Email" />
+                            placeholder="Tu Email" />
                         {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>
-                <div className="col col-lg-6 col-12">
+                {/* <div className="col col-lg-6 col-12">
                     <div className="form-field">
                         <input
                             value={forms.phone}
@@ -77,8 +77,8 @@ const ContactForm = () => {
                             placeholder="Your phone" />
                         {validator.message('phone', forms.phone, 'required|phone')}
                     </div>
-                </div>
-                <div className="col col-lg-6 col-12">
+                </div> */}
+                {/* <div className="col col-lg-6 col-12">
                     <div className="form-field">
                         <select
                             onBlur={(e) => changeHandler(e)}
@@ -94,7 +94,7 @@ const ContactForm = () => {
                         </select>
                         {validator.message('subject', forms.subject, 'required')}
                     </div>
-                </div>
+                </div> */}
                 <div className="col col-lg-12 col-12">
                     <textarea
                         onBlur={(e) => changeHandler(e)}
@@ -102,13 +102,13 @@ const ContactForm = () => {
                         value={forms.message}
                         type="text"
                         name="message"
-                        placeholder="Message">
+                        placeholder="Mensaje">
                     </textarea>
                     {validator.message('message', forms.message, 'required')}
                 </div>
             </div>
             <div className="submit-area">
-                <button type="submit" className="theme-btn">Submit Now</button>
+                <button type="submit" className="theme-btn">Enviar</button>
             </div>
         </form >
     )

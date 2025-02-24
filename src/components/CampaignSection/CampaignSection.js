@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import cImag from '../../images/donate.jpg'
+import cImag from '../../images/ideario.jpg'
 
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
 
-const CampaignSection = (props) => {
+const Ideario = (props) => {
     return (
         <section className="wpo-running-campaign-section section-padding">
             <div className="container">
@@ -17,31 +17,23 @@ const CampaignSection = (props) => {
                     <div className="row align-items-center">
                         <div className="col-lg-5">
                             <div className="campaign-img">
-                                <img src={cImag} alt=""/>
+                                <img src={cImag} alt="" />
                             </div>
                         </div>
                         <div className="col-lg-7">
                             <div className="running-campaign-content">
-                                <span className="sub-title">DONATE TODAY!</span>
-                                <h2 className="title">You Can Contribute Our Last Campaign</h2>
+                                <span className="sub-title">NUESTRO PROPIO CAMINO</span>
+                                <h2 className="title">Ideario de fuerza y <br /> democracia</h2>
                                 <div className="donate-progress-wrap">
-                                    <div className="donate-progress">
-                                        <div className="cssProgress-bar" data-percent="75" style={{ width: '75%' }}>
-                                            <span className="cssProgress-label">75%</span>
-                                        </div>
-                                    </div>
+
                                     <div className="progress-text">
-                                        <div className="goal">
-                                            <span>Goal:</span>
-                                            <strong>$85,000</strong>
-                                        </div>
-                                        <div className="goal raised">
-                                            <span>Raised:</span>
-                                            <strong>$74,000</strong>
-                                        </div>
+                                        <p>Nos sumamos a la vida política para enfrentar los <br /> desafíos y oportunidades del siglo XXI</p>
                                     </div>
                                 </div>
-                                <Link onClick={ClickHandler} to="/donate" className="theme-btn-s3">DONATE NOW</Link>
+                                <a href="https://www.partidomorado.pe/files/pdf/Ideario-Partido%20Morado%20-%20Valores.pdf" target="_blank" rel="noopener noreferrer" className="theme-btn-s3">
+                                    IDEARIO
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -77,4 +69,4 @@ const CampaignSection = (props) => {
     );
 }
 
-export default CampaignSection;
+export default Ideario;

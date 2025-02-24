@@ -4284,7 +4284,7 @@ wpo-static-hero
 }
 .wpo-election-donation-section .election-donation-item,
 .wpo-election-donation-section-s2 .election-donation-item {
-  background: #274DCF;
+  background: #170059;
   text-align: center;
   padding: 45px 35px;
   transition: all 0.4s ease-in-out;
@@ -4381,7 +4381,7 @@ wpo-static-hero
 .wpo-running-campaign-section {
   position: relative;
   z-index: 1;
-  background: url(../../images/donate-bg.jpg);
+  background: url(../../images/ideario-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4395,7 +4395,7 @@ wpo-static-hero
   width: 100%;
   height: 100%;
   background: #170059;
-  opacity: 0.88;
+  opacity: 0.8;
   z-index: -1;
 }
 .wpo-running-campaign-section .running-campaign-wrap {
@@ -4433,7 +4433,7 @@ wpo-static-hero
   height: 171%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  border: 43px solid #274DCF;
+  border: 43px solid #170059;
   border-radius: 100%;
 }
 @media (max-width: 991px) {
@@ -4505,34 +4505,7 @@ wpo-static-hero
 .wpo-running-campaign-section .running-campaign-wrap .running-campaign-content .donate-progress-wrap {
   margin-bottom: 40px;
 }
-.wpo-running-campaign-section .running-campaign-wrap .running-campaign-content .donate-progress-wrap .donate-progress {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 8px;
-  background: #DEE3F2;
-  border-radius: 31px;
-}
-.wpo-running-campaign-section .running-campaign-wrap .running-campaign-content .donate-progress-wrap .donate-progress .cssProgress-bar {
-  display: block;
-  float: left;
-  width: 0%;
-  height: 100%;
-  background: linear-gradient(90deg, rgb(45, 73, 189) 0%, rgb(222, 32, 69) 100%);
-  box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
-  transition: width 0.8s ease-in-out;
-  border-radius: 31px;
-}
-.wpo-running-campaign-section .running-campaign-wrap .running-campaign-content .donate-progress-wrap .donate-progress .cssProgress-bar .cssProgress-label {
-  position: absolute;
-  overflow: hidden;
-  left: 0px;
-  right: 0px;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 0;
-  text-align: center;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
-}
+
 .wpo-running-campaign-section .running-campaign-wrap .running-campaign-content .donate-progress-wrap .progress-text {
   display: flex;
   align-content: center;

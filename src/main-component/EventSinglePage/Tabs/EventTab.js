@@ -23,7 +23,7 @@ const EventTab = ({ EventsDetails }) => {
               className={classnames({ active: activeTab === '1' })}
               onClick={() => { toggle('1'); }}
             >
-              Description
+              Descripción
             </NavLink>
           </NavItem>
           <NavItem>
@@ -32,7 +32,7 @@ const EventTab = ({ EventsDetails }) => {
               onClick={() => { toggle('2'); }}
             >
 
-              Donations
+              Donaciones
             </NavLink>
           </NavItem>
           <NavItem>
@@ -41,7 +41,7 @@ const EventTab = ({ EventsDetails }) => {
               onClick={() => { toggle('3'); }}
             >
 
-              Comments
+              Comentarios
             </NavLink>
           </NavItem>
         </Nav>

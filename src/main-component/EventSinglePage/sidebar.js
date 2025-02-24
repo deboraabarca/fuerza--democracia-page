@@ -17,13 +17,13 @@ const ServiceSidebar = (props) => {
             <div className="widget search-widget">
                 <form onSubmit={SubmitHandler}>
                     <div>
-                        <input type="text" className="form-control" placeholder="Search Post.." />
+                        <input type="text" className="form-control" placeholder="Buscar publicaciones" />
                         <button type="submit"><i className="ti-search"></i></button>
                     </div>
                 </form>
             </div>
             <div className="widget recent-post-widget">
-                <h3>Related Posts</h3>
+                <h3>Publicaciones relacionadas</h3>
                 <div className="posts">
                     {blogs.map((blog, bl) => (
                         <div className="post" key={bl}>
@@ -38,7 +38,7 @@ const ServiceSidebar = (props) => {
                     ))}
                 </div>
             </div>
-            <div className="widget tag-widget">
+            {/* <div className="widget tag-widget">
                 <h3>Tags</h3>
                 <ul>
                     <li><Link to="/">ELECTION</Link></li>
@@ -50,7 +50,7 @@ const ServiceSidebar = (props) => {
                     <li><Link to="/">SECURITY</Link></li>
                     <li><Link to="/">VOTE</Link></li>
                 </ul>
-            </div>
+            </div> */}
         </div>
 
     )

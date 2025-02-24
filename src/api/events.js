@@ -14,7 +14,7 @@ const Events = [
        eImg:eimg1,
        eSimg:eSimg1,
        thumb:'Conference',   
-       title:'Letraset Sheets Passage And Recently.',  
+       title:'Nuestros Eventos',  
        slug:'Support-for-Womans',
        date:'July 1, 2023',
        time:'15:00 - 19:00',

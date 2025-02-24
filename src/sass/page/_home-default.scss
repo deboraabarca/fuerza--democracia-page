@@ -173,7 +173,7 @@
             height: 183%;
             transform: translate(-50%, -50%);
             z-index: -1;
-            border: 43px solid #DE2045;
+            border: 43px solid #F40E22;
             border-radius: 100%;
 
             @media (max-width:991px) {
@@ -280,7 +280,7 @@
                             font-weight: 600;
                             font-size: 15px;
                             line-height: 30px;
-                            color: #091854;
+                            color: #170059;
                         }
 
                         &.raised {
@@ -371,7 +371,7 @@
                 content: "";
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #091854 100%);
+                background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #170059 100%);
                 opacity: 0.8;
                 transition: all .4s ease-in-out;
             }
@@ -386,7 +386,7 @@
                 opacity: 0;
                 visibility: hidden;
                 transition: all .4s ease-in-out;
-                background: linear-gradient(90deg, #2D49BD 0%, #DE2045 100%);
+                background: linear-gradient(90deg, #2D49BD 0%, #F40E22 100%);
             }
 
             img {
@@ -811,7 +811,7 @@
 
         svg {
             rect {
-                fill: linear-gradient(90deg, #DE2045 0%, rgba(217, 217, 217, 0) 100%);
+                fill: linear-gradient(90deg, #F40E22 0%, rgba(217, 217, 217, 0) 100%);
             }
         }
     }
@@ -1143,7 +1143,7 @@
 
             svg {
                 rect {
-                    fill: linear-gradient(90deg, #DE2045 0%, rgba(255, 255, 255, 0) 100%);
+                    fill: linear-gradient(90deg, #F40E22 0%, rgba(255, 255, 255, 0) 100%);
                 }
             }
         }

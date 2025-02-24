@@ -124,30 +124,7 @@ const MissionVission = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="shape-1">
-                <svg width="1245" height="1206" viewBox="0 0 1245 1206" fill="none">
-                    <path opacity="0.6" d="M0 0L1245 619V1206H0V0Z" />
-                    <defs>
-                        <linearGradient id="paint0_linear_1_102" x1="622.5" y1="0" x2="622.5" y2="1206"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0" stopColor="#F8F2F2" />
-                            <stop offset="1" stopColor="#F8F2F2" stopOpacity="0" />
-                        </linearGradient>
-                    </defs>
-                </svg>
-            </div>
-            <div className="shape-2">
-                <svg width="945" height="884" viewBox="0 0 945 884" fill="none">
-                    <path opacity="0.6" d="M945 0L0 503V884L945 359V0Z" />
-                    <defs>
-                        <linearGradient id="paint0_linear_1_106" x1="945" y1="64" x2="661" y2="809"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0" stopColor="#F8F2F2" />
-                            <stop offset="1" stopColor="#F8F2F2" stopOpacity="0" />
-                        </linearGradient>
-                    </defs>
-                </svg>
-            </div>
+
         </section>
     )
 }

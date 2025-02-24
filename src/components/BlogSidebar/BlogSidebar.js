@@ -19,8 +19,11 @@ const BlogSidebar = (props) => {
                     <div className="img-holder">
                         <img src={about} alt="" />
                     </div>
-                    <h4>Jenny Watson</h4>
-                    <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>
+                    <h4>Helena Díaz</h4>
+                    <p>Hola, gente hermosa. Soy la
+                        autora de este blog. Lean
+                        nuestra publicación y estén
+                        atentos.</p>
                     <div className="social">
                         <ul className="clearfix">
                             <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently"><i className="ti-facebook"></i></Link></li>
@@ -33,23 +36,23 @@ const BlogSidebar = (props) => {
                     </div>
                 </div>
                 <div className="widget search-widget">
-                    <h3>Search Here</h3>
+                    <h3>Busca aquí</h3>
                     <form onSubmit={SubmitHandler}>
                         <div>
-                            <input type="text" className="form-control" placeholder="Search Post.." />
+                            <input type="text" className="form-control" placeholder="Buscar publicación.." />
                             <button type="submit"><i className="ti-search"></i></button>
                         </div>
                     </form>
                 </div>
                 <div className="widget category-widget">
-                    <h3>Post Categories</h3>
+                    <h3>Categorías de publicaciones</h3>
                     <ul>
-                        <li><Link onClick={ClickHandler} to="/blog">Election<span>5</span></Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Events<span>7</span></Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Politics<span>3</span></Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Program<span>6</span></Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Family<span>2</span></Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog">Social<span>8</span></Link></li>
+                        <li><Link onClick={ClickHandler} to="/">Elección<span>5</span></Link></li>
+                        <li><Link onClick={ClickHandler} to="/">Eventos<span>7</span></Link></li>
+                        <li><Link onClick={ClickHandler} to="/">Política<span>3</span></Link></li>
+                        <li><Link onClick={ClickHandler} to="/">Programa<span>6</span></Link></li>
+                        <li><Link onClick={ClickHandler} to="/">Familia<span>2</span></Link></li>
+                        <li><Link onClick={ClickHandler} to="/">Social<span>8</span></Link></li>
                     </ul>
                 </div>
                 <div className="widget recent-post-widget">
@@ -66,24 +69,6 @@ const BlogSidebar = (props) => {
                                 </div>
                             </div>
                         ))}
-                    </div>
-                </div>
-                <div className="widget tag-widget">
-                    <h3>Tags</h3>
-                    <ul>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">ELECTION</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">Campaign</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">STATEMENT</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">POLITICS</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">PRESS</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">SOCIAL</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">SECURITY</Link></li>
-                        <li><Link onClick={ClickHandler} to="/blog-single/Letraset-Sheets-Passage-And-Recently">VOTE</Link></li>
-                    </ul>
-                </div>
-                <div className="wpo-contact-widget widget">
-                    <div className="wpo-contact-widget-inner">
-                        <h2><Link onClick={ClickHandler} to="/contact">Contact For Advertisment 270 x 310</Link></h2>
                     </div>
                 </div>
             </div>

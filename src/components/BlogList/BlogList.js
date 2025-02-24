@@ -16,7 +16,7 @@ const BlogList = (props) => {
             <div className="container">
                 <div className="row">
                     <div className={`col col-lg-8 col-12 ${props.blRight}`}>
-                        <div className="wpo-blog-content">
+                        <div className="wpo-blog-content">s
                             {blogs.map((blog, bitem) => (
                                 <div className={`post  ${blog.blClass}`}key={bitem}>
                                     <div className="entry-media video-holder">
@@ -38,23 +38,6 @@ const BlogList = (props) => {
                                 </div>
                             ))}
 
-                            <div className="pagination-wrapper pagination-wrapper-left">
-                                <ul className="pg-pagination">
-                                    <li>
-                                        <Link to="/blog-left-sidebar" aria-label="Previous">
-                                            <i className="fi ti-angle-left"></i>
-                                        </Link>
-                                    </li>
-                                    <li className="active"><Link to="/blog-left-sidebar">1</Link></li>
-                                    <li><Link to="/blog-left-sidebar">2</Link></li>
-                                    <li><Link to="/blog-left-sidebar">3</Link></li>
-                                    <li>
-                                        <Link to="/blog-left-sidebar" aria-label="Next">
-                                            <i className="fi ti-angle-right"></i>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                     <BlogSidebar blLeft={props.blLeft}/>

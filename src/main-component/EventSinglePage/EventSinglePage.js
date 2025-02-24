@@ -16,7 +16,7 @@ const EventSinglePage = (props) => {
     return (
         <Fragment>
             <Navbar2 />
-            <PageTitle pageTitle={EventsDetails.title} pagesub={'Campaign'} />
+            <PageTitle pageTitle={EventsDetails.title} pagesub={'Eventos'} />
             <div className="wpo-Campaign-single-area">
                 <div className="wpo-event-details-area section-padding">
                     <div className="container">

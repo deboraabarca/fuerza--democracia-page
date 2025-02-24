@@ -14,7 +14,7 @@ const Events = [
        eImg:eimg1,
        eSimg:eSimg1,
        thumb:'Conference',   
-       title:'Gran Marcha por la\nDemocracia',  
+       title:'Nuestro Evento',  
        slug:'Gran-Marcha-por-la-Democracia',
        date:'1 Marzo, 2025',
        time:'15:00 - 19:00',

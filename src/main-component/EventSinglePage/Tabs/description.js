@@ -7,41 +7,19 @@ const Description = ({ EventsDetails }) => {
                 <div className="wpo-campaign-text-top">
                     <h2>{EventsDetails.title}</h2>
                     <div className="campaign-b-text">
-                        <p>On the other hand, we denounce with righteous indignation
-                            and dislike men who are so beguiled and demoralized by
-                            the charms of pleasure of the moment, so blinded by
-                            desire, that they cannot foresee the pain and trouble
-                            that are bound to ensue and equal blame belongs to those
-                            who fail in their duty through weakness of will, which
-                            is the same as saying through shrinking from toil and
-                            pain.</p>
-                        <p>These campaigns are perfectly simple and easy to distinguish.
-                            In a free hour, when our power of choice is untrammelled
-                            and when nothing prevents our being able to do what we
-                            like best, every pleasure is to be welcomed and every
-                            pain avoided.</p>
-                        <p>But in certain circumstances and owing to the claims of
-                            duty or the obligations of business it will frequently
-                            occur that pleasures have to be repudiated and
-                            annoyances accepted. The wise man therefore always holds
-                            in these matters to this principle of selection: he
-                            rejects pleasures.</p>
+                        <p>El feminicidio y la violencia contra las mujeres siguen siendo una dura realidad en nuestro país. No podemos quedarnos en silencio mientras tantas vidas son arrebatadas. 
+                        Es momento de alzar la voz, de exigir justicia y de construir un Perú donde todas las mujeres puedan vivir sin miedo.
+                        Nuestra lucha no tiene colores políticos ni distinciones: nos une el compromiso por la igualdad, la seguridad y la vida de cada mujer. Salgamos juntos a las calles para hacer visible esta problemática y demandar acciones concretas. Porque una sociedad sin violencia es responsabilidad de todos.</p>
+                        
                     </div>
                     <div className="event-bb-text">
-                        <h3>Support for Woman's April 2023</h3>
-                        <p>These campaigns are perfectly simple and easy to distinguish.
-                            In a free hour, when our power of choice is untrammelled
-                            and when nothing prevents our being able to do what we
-                            like best, every pleasure.</p>
+                        <h3>Detalle del Evento</h3>
+                        <p>La marcha partirá desde la Plaza San Martín, en Lima, en una jornada de unión y protesta por la vida y la seguridad de las mujeres. Te esperamos el 20 de Febrero a las 14:00 , para alzar juntos la voz contra el feminicidio y la violencia de género. Para participar, te recomendamos:</p>
                         <ul>
-                            <li>The wise man therefore always holds in these
-                                matters.</li>
-                            <li>In a free hour, when our power of choice and when
-                                nothing.</li>
-                            <li>Else he endures pains to avoid worse pains.</li>
-                            <li>We denounce with righteous indignation and dislike
-                                men. </li>
-                            <li>Which is the same as saying through.</li>
+                            <li>Usa ropa blanca o morada como símbolo de lucha.</li>
+                            <li>Trae pancartas con mensajes de justicia y apoyo.</li>
+                            <li>Promovamos una marcha pacífica, pero firme en su mensaje.</li>
+                            <li>Mantén el orden y respeta a los demás participantes. </li>
                         </ul>
                     </div>
                 </div>

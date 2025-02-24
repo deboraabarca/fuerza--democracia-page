@@ -27,11 +27,7 @@ const blogs = [
     },
     {
         id: '2',
-<<<<<<< HEAD
         title: 'Transparencia y Buen Gobierno: Compromiso',
-=======
-        title: 'Conversatorio: Construyendo un Perú Mejor',
->>>>>>> yamir-eventos-corregido
         slug:'Politics-is-why-we-can’t-have-nice-things',
         screens: blogImg2,
         description: 'Analizamos la importancia de un Estado honesto y eficiente para el desarrollo del Perú.',
@@ -46,11 +42,7 @@ const blogs = [
     },
     {
         id: '3',
-<<<<<<< HEAD
         title: 'Juventud Política: El Rol de las Generaciones',
-=======
-        title: 'Transparencia y Buen Gobierno: Compromiso',
->>>>>>> yamir-eventos-corregido
         slug:'Liberty-Divided-Over-Criticism-Justice-League',
         screens: blogImg3,
         description: 'La participación juvenil es clave para el cambio. Conoce cómo involucrarte y hacer la diferencia.',

@@ -1,64 +1,64 @@
 import React from 'react'
-import mvImg1 from '../../images/election-mission/1.jpg'
-import mvImg2 from '../../images/election-mission/2.jpg'
-import mvImg3 from '../../images/election-mission/3.jpg'
-import mvImg4 from '../../images/election-mission/4.jpg'
-import mvImg5 from '../../images/election-mission/5.jpg'
-import mvImg6 from '../../images/election-mission/6.jpg'
-import mvImg7 from '../../images/election-mission/7.jpg'
-import mvImg8 from '../../images/election-mission/8.jpg'
+import mvImg1 from '../../images/objetivos/1.jpg'
+import mvImg2 from '../../images/objetivos/2.jpg'
+import mvImg3 from '../../images/objetivos/3.jpg'
+import mvImg4 from '../../images/objetivos/4.jpg'
+import mvImg5 from '../../images/objetivos/5.jpg'
+import mvImg6 from '../../images/objetivos/6.jpg'
+import mvImg7 from '../../images/objetivos/7.jpg'
+import mvImg8 from '../../images/objetivos/8.jpg'
 
 
 const Mission = [
     {
         id: '01',
         mImg: mvImg1,
-        Title: 'MEDICAL SYSTEM',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Defensa\nDemocrática',
+        Des: "Garantizamos el respeto a la democracia, los derechos humanos y la soberanía nacional.",
     },
     {
         id: '02',
         mImg: mvImg2,
-        Title: 'RESIDENTIAL AREA',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Renovación\nPolítica',
+        Des: "Reformaremos la Constitución si es necesario para un país más justo y equitativo.",
     },
     {
         id: '03',
         mImg: mvImg3,
-        Title: 'TRAFFIC JAM',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Educación\nInnovadora',
+        Des: "Impulsamos un sistema educativo moderno, accesible y adaptado a los desafíos del futuro.",
     },
     {
         id: '04',
         mImg: mvImg4,
-        Title: 'ECONOMIC ZONE',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Servicios\nDignos',
+        Des: "Trabajamos por un acceso justo y eficiente a salud, transporte y otros servicios esenciales.",
     },
     {
         id: '05',
         mImg: mvImg5,
-        Title: 'FOOD SAFETY',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Gobierno\nTransparente',
+        Des: "Promovemos una gestión pública sin corrupción, con cuentas claras y acceso a la información.",
     },
     {
         id: '06',
         mImg: mvImg6,
-        Title: 'FOREIGN POLICYE',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Gestión\nModerna',
+        Des: "Aplicamos tecnología y eficiencia en la administración del Estado para un mejor servicio ciudadano.",
     },
     {
         id: '07',
         mImg: mvImg7,
-        Title: 'EDUCATION SYSTEM',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Economía\nDiversificada',
+        Des: "Fomentamos el crecimiento sostenible con nuevas oportunidades en diferentes sectores productivos.",
     },
     {
         id: '08',
         mImg: mvImg8,
-        Title: 'FAMILY SAFETY',
-        Des: "Lorem Ipsum has been the industry's standard dummy of the text ever since make.",
+        Title: 'Inclusión\nSocial',
+        Des: "Construimos un país sin desigualdades, donde todos tengan acceso a oportunidades.",
     }
-]
+];
 
 const MissionVission = (props) => {
     return (
@@ -99,8 +99,9 @@ const MissionVission = (props) => {
                                     </defs>
                                 </svg>
                             </div>
-                            <span>Our Mission & Vission</span>
-                            <h2>We Can Make Solution Everything To Our Demand.</h2>
+                            <span>Nuestros Objetivos</span>
+                            <h2>Por un Perú justo <br/>
+                            próspero y democrático</h2>
                         </div>
                     </div>
                 </div>
@@ -111,7 +112,7 @@ const MissionVission = (props) => {
                                 <div className="col-lg-3 col-md-4 col-sm-6 col-12" key={mvsion}>
                                     <div className="election-mission-content">
                                         <img src={mvsion.mImg} alt=""/>
-                                            <div className="title">{mvsion.Title}</div>
+                                            <div className="title break-line">{mvsion.Title}</div>
                                             <div className="text">
                                                 <h3>{mvsion.Title}</h3>
                                                 <p>{mvsion.Des}</p>

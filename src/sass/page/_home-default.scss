@@ -1,4 +1,12 @@
 //* 3.2 wpo-election-donation-section *//
+
+.break-line {
+    white-space: pre-line;
+}
+
+
+
+
 .wpo-election-donation-section,
 .wpo-election-donation-section-s2 {
     padding-bottom: 90px;
@@ -386,7 +394,7 @@
                 opacity: 0;
                 visibility: hidden;
                 transition: all .4s ease-in-out;
-                background: linear-gradient(90deg, #2D49BD 0%, #F40E22 100%);
+                background: linear-gradient(90deg, #F40E22 0%, #170059  100%);
             }
 
             img {
@@ -1175,6 +1183,8 @@
     @media (max-width:767px) {
         padding-bottom: 50px;
     }
+
+
 
     .blog-wrap {
 

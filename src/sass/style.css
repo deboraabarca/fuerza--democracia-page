@@ -4645,7 +4645,7 @@ wpo-static-hero
   opacity: 0;
   visibility: hidden;
   transition: all 0.4s ease-in-out;
-  background: linear-gradient(90deg, #2D49BD 0%, #F40E22 100%);
+  background: linear-gradient(90deg, #170059 0%, #F40E22 100%);
 }
 .wpo-election-mission-section .election-mission-wrap .election-mission-content img {
   width: 100%;
